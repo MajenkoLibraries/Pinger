@@ -30,6 +30,7 @@
 
 #include <Pinger.h>
 
+// Send the trigger pulse on pin 2 and wait for a response on pin 3.
 Pinger pinger(2, 3);
 
 void setup() {
@@ -37,8 +38,14 @@ void setup() {
 }
 
 void loop() {
+    // The pinger responds in cm
     float cm = pinger.ping();
+
+    // Print it.
     Serial.print(cm);
     Serial.println("cm");
+
+    // Don't do it too often or there will just be too much data
+    // for the human brain to take in.
     delay(100);
 }
