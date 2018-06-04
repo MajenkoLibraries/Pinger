@@ -1,0 +1,17 @@
+Source: pinger
+Section: main
+Priority: extra
+XBSC-Group: Libraries
+XBSC-SubGroup: Sensors
+XBSC-SubSubgroup: Distance
+Maintainer: Matt Jenkins <matt@majenko.co.uk>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+
+Package: lib-pinger
+Architecture: all
+Provides: Pinger.h
+Description: Simple Ultrasonic library
+
+
+
