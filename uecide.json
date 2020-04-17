@@ -1,18 +1,1 @@
-{
-    "name": "Pinger",
-    "provides": "Pinger.h",
-    "license": "LICENSE.md",
-    "readme": "README.md",
-    "description": "Ultrasonic Range Finder",
-    "category": "Sensors",
-    "subcategory": "Distance",
-    "maintainer": "Matt Jenkins <matt@majenko.co.uk>",
-    "version": "1.0.3",
-    "family": "all",
-    "core": "all",
-    "install": {
-        "examples": "/",
-        "Pinger.cpp": "/",
-        "Pinger.h": "/"
-    }
-}
+{"name":"Pinger","provides":"Pinger.h","license":"LICENSE.md","readme":"README.md","description":"Ultrasonic Range Finder","category":"Sensors","subcategory":"Distance","maintainer":"Matt Jenkins <matt@majenko.co.uk>","version":"1.0.4","family":"all","core":"all","install":{"examples":"\/","library.properties":"\/","src":"\/"}}
